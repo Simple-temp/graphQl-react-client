@@ -10,7 +10,7 @@ import {
 } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: 'https://merngwithgql.onrender.com/graphql',
+  uri: 'https://graphqltodo.onrender.com/graphql',
   cache: new InMemoryCache(),
   headers : {
     authorization : localStorage.getItem("token") || ""
